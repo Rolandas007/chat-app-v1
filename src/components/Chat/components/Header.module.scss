@@ -1,0 +1,9 @@
+@import 'styles/colors.module.scss';
+@import 'styles/variables.module.scss';
+
+.header {
+  border-bottom: 1px solid $colorGreyLight;
+  font-weight: $weightBold;
+  font-size: 24px;
+  padding: 24px;
+}

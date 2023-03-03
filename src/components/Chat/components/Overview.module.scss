@@ -1,0 +1,26 @@
+@import 'styles/colors.module.scss';
+@import 'styles/variables.module.scss';
+
+.content {
+  padding: 24px;
+  height: calc(100vh - 337px);
+  overflow: hidden;
+}
+
+.title {
+  margin: 0;
+  font-weight: $weightSemiBold;
+}
+
+.value {
+  margin: 8px 0 16px 0;
+  font-weight: $weightLight;
+  color: $colorTextGrey;
+}
+
+.buttonWrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 24px;
+  width: calc(100% - 24px * 2);
+}

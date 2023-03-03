@@ -1,0 +1,21 @@
+@import 'styles/colors.module.scss';
+@import 'styles/variables.module.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  margin: 16px 0 16px 16px;
+  padding: 10px 12px;
+  border-radius: 17px;
+  background: $colorGreyLightest;
+  font-size: 15px;
+}
+
+.button {
+  padding: 16px;
+  cursor: pointer;
+}

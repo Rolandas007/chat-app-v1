@@ -1,0 +1,26 @@
+@import 'styles/colors.module.scss';
+@import 'styles/variables.module.scss';
+
+.page {
+  background: $colorGreyLight;
+}
+
+.content {
+  display: flex;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.document {
+  width: calc(70% - 64px - 64px - 24px);
+  height: 800px;
+  background: $colorGrey;
+  margin: 88px 64px 24px 64px;
+  border-radius: 8px;
+}
+
+.info {
+  position: absolute;
+  right: 24px;
+  top: 88px;
+}

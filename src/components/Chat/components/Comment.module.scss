@@ -1,0 +1,55 @@
+@import 'styles/colors.module.scss';
+@import 'styles/variables.module.scss';
+
+.container {
+  display: flex;
+  margin: 14px 24px;
+}
+
+.icon {
+  margin: 8px 8px 0 0;
+}
+
+.comment {
+  background: $colorGreyLightest;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 254px;
+  padding: 11px 8px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: $weightSemiBold;
+    margin: 0;
+  }
+}
+
+.actionIcons {
+  svg {
+    margin-left: 14px;
+    cursor: pointer;
+  }
+}
+
+.date {
+  font-weight: $weightLight;
+  font-size: 12px;
+  color: $colorGreyDark;
+  margin: 4px 0;
+}
+
+.text {
+  font-weight: $weightLight;
+  margin: 0;
+}
+
+.input {
+  padding: 4px;
+  border-radius: 4px;
+  width: calc(100% - 8px);
+  font-style: italic;
+}
